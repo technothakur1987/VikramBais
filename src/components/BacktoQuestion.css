@@ -1,0 +1,36 @@
+.back-to-question-section {
+  width: 75.5rem;
+  height: 3rem;
+  position: absolute;
+  top: 10.125rem;
+  left: 4.1875rem;
+  padding: 0 59.25rem 0.75rem 0;
+  z-index: 9996;
+}
+.back-text {
+  width: 22.25rem;
+  height: 2.25rem;
+}
+
+.back-text .img-fluid {
+  width: 1.5rem;
+}
+.backbtn {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.375rem;
+  letter-spacing: 0em;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  color: #f8f8f8;
+}
+
+
+/*media Querie*/
+@media (max-width: 767.98px) { 
+  .back-to-question-section{
+    display: none;
+  }
+}
